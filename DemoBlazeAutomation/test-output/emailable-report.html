@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta charset='utf-8'>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">Smoke</a></td><td class="numi">14</td><td class="numi">14</td><td class="numi">0</td><td class="numi_attn">6</td><td class="numi">103.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">Smoke &#8212; failed</th></tr>
+<tr class="failedodd"><td>ContactTest</td><td><a href="#m1"><b>testContactwithblankfields</b>  </a></td><td class="numi">1</td><td>1713256957873</td><td class="numi">3420</td></tr>
+<tr class="failedeven"><td>Checkout</td><td><a href="#m2"><b>testCreditCardLength</b>  </a></td><td class="numi">1</td><td>1713256989961</td><td class="numi">2982</td></tr>
+<tr class="failedodd"><td>ContactTest</td><td><a href="#m3"><b>testContactwithinvalidemailformat</b>  </a></td><td class="numi">1</td><td>1713256961304</td><td class="numi">1981</td></tr>
+<tr class="failedeven"><td>SignUpTest</td><td><a href="#m4"><b>testusernameandpasswordwitonlyspace</b>  </a></td><td class="numi">1</td><td>1713256938296</td><td class="numi">2754</td></tr>
+<tr class="failedodd"><td rowspan="2">Checkout</td><td><a href="#m5"><b>testNameLengthAndFormat</b>  </a></td><td class="numi">1</td><td>1713256996527</td><td class="numi">2824</td></tr><tr class="failedodd"><td><a href="#m6"><b>testValidNameAndCreditCard</b>  </a></td><td class="numi">1</td><td>1713256999353</td><td class="numi">26</td></tr>
+<tr><th colspan="5">Smoke &#8212; passed</th></tr>
+<tr class="passedodd"><td>Checkout</td><td><a href="#m7"><b>testEmptyNameAndValidCreditCard</b>  </a></td><td class="numi">1</td><td>1713256992946</td><td class="numi">1820</td></tr>
+<tr class="passedeven"><td>cart</td><td><a href="#m8"><b>testAddProductToCart</b>  </a></td><td class="numi">1</td><td>1713256967686</td><td class="numi">20143</td></tr>
+<tr class="passedodd"><td>LogTest</td><td><a href="#m9"><b>testEmptyUsernameAndPassword</b>  </a></td><td class="numi">1</td><td>1713256951781</td><td class="numi">1403</td></tr>
+<tr class="passedeven"><td rowspan="4">SignUpTest</td><td><a href="#m10"><b>testblankusernameandpassword</b>  </a></td><td class="numi">1</td><td>1713256926788</td><td class="numi">2874</td></tr><tr class="passedeven"><td><a href="#m11"><b>testvalidusernameandblankpassword</b>  </a></td><td class="numi">1</td><td>1713256941061</td><td class="numi">1713</td></tr><tr class="passedeven"><td><a href="#m12"><b>testblankusernameandvalidpassword</b>  </a></td><td class="numi">1</td><td>1713256929666</td><td class="numi">2315</td></tr><tr class="passedeven"><td><a href="#m13"><b>testusernameandpasswordwithspecialcharacters</b>  </a></td><td class="numi">1</td><td>1713256934981</td><td class="numi">3313</td></tr>
+<tr class="passedodd"><td rowspan="2">LogTest</td><td><a href="#m14"><b>testInvalidUsername</b>  </a></td><td class="numi">1</td><td>1713256945204</td><td class="numi">4062</td></tr><tr class="passedodd"><td><a href="#m15"><b>testInvalidPassword</b>  </a></td><td class="numi">1</td><td>1713256949274</td><td class="numi">2505</td></tr>
+<tr class="passedeven"><td>ContactTest</td><td><a href="#m16"><b>testContactwithvalidemailandmessage</b>  </a></td><td class="numi">1</td><td>1713256963290</td><td class="numi">2037</td></tr>
+<tr class="passedodd"><td>SignUpTest</td><td><a href="#m17"><b>testrepeatedusernameandpassword</b>  </a></td><td class="numi">1</td><td>1713256931985</td><td class="numi">2994</td></tr>
+<tr class="passedeven"><td>ContactTest</td><td><a href="#m18"><b>testContactsuccessfully</b>  </a></td><td class="numi">1</td><td>1713256955092</td><td class="numi">2778</td></tr>
+<tr class="passedodd"><td>Checkout</td><td><a href="#m19"><b>testNameAndCreditCardMandatory</b>  </a></td><td class="numi">1</td><td>1713256994767</td><td class="numi">1759</td></tr>
+<tr class="passedeven"><td>SignUpTest</td><td><a href="#m20"><b>signupsuccessfully</b>  </a></td><td class="numi">1</td><td>1713256919737</td><td class="numi">7043</td></tr>
+</table>
+<h1>Smoke</h1>
+<h2 id="m1">SignUpTest:testusernameandpasswordwitonlyspace</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at SignUpTest.testusernameandpasswordwitonlyspace(SignUpTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">ContactTest:testContactwithblankfields</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at ContactTest.testContactwithblankfields(ContactTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Checkout:testNameLengthAndFormat</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: expected [Name should be at least 2 characters long and contain only alphabetic characters.] but found [Please fill out Name and Creditcard.]
+	at Checkout.testNameLengthAndFormat(Checkout.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 28 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Checkout:testValidNameAndCreditCard</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please fill out Name and Creditcard.}
+  (Session info: chrome=123.0.6312.88): Please fill out Name and Creditcard.
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5db3202b7cb16f5f855cf3a51caccbf4, get {url=https://www.demoblaze.com/cart.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.88, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\Creative\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55938/devtoo..., se:cdpVersion: 123.0.6312.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5db3202b7cb16f5f855cf3a51caccbf4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at Checkout.testValidNameAndCreditCard(Checkout.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 22 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Checkout:testCreditCardLength</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: expected [credit card must be only 16 digit ] but found [Thank you for your purchase!]
+	at Checkout.testCreditCardLength(Checkout.java:129)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 28 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">ContactTest:testContactwithinvalidemailformat</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at ContactTest.testContactwithinvalidemailformat(ContactTest.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Checkout:testEmptyNameAndValidCreditCard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">SignUpTest:testblankusernameandvalidpassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">cart:testAddProductToCart</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">SignUpTest:testusernameandpasswordwithspecialcharacters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">LogTest:testInvalidUsername</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">LogTest:testInvalidPassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">ContactTest:testContactwithvalidemailandmessage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">SignUpTest:testrepeatedusernameandpassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">LogTest:testEmptyUsernameAndPassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">ContactTest:testContactsuccessfully</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">SignUpTest:testblankusernameandpassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">Checkout:testNameAndCreditCardMandatory</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">SignUpTest:testvalidusernameandblankpassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">SignUpTest:signupsuccessfully</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
